@@ -1,0 +1,77 @@
+﻿body {
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+.image-container {
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .image-container img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: fill;
+        border-radius: 15px;
+    }
+
+.form-container {
+    background-color: white;
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: midnightblue;
+    margin-bottom: 20px; /* Reduced margin */
+    font-size: 24px; /* Reduced font size */
+    text-align: center;
+}
+
+.form-control {
+    font-size: 16px; /* Reduced font size */
+    margin-bottom: 15px; /* Reduced margin */
+    border-radius: 6px; /* Slightly smaller border-radius */
+    padding: 8px; /* Reduced padding */
+}
+
+.btn-primary {
+    background-color: midnightblue;
+    border-color: midnightblue;
+    font-size: 18px; /* Reduced font size */
+    border-radius: 6px; /* Slightly smaller border-radius */
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+}
+
+    .btn-primary:hover {
+        background-color: #4c4c4c;
+        border-color: #4c4c4c;
+    }
+
+#loginLink, #registerLink {
+    display: block;
+    margin-top: 10px; /* Reduced margin */
+    color: midnightblue;
+    font-size: 14px; /* Reduced font size */
+}
+
+    #loginLink:hover, #registerLink:hover {
+        text-decoration: underline;
+    }
+
+.text-center {
+    text-align: center;
+}

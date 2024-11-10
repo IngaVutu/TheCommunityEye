@@ -1,0 +1,61 @@
+﻿body {
+    background-color: midnightblue; /* Midnight Blue */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f0f0; /* Light Grey */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #1a1a2e; /* Midnight Blue */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1a1a2e; /* Midnight Blue */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1a1a2e; /* Midnight Blue */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+    .form-control:focus {
+        outline: none;
+        border-color: #ffcc00; /* Highlight color */
+    }
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: midnightblue; /* Midnight Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn:hover {
+        background-color: #ffcc00; /* Highlight color */
+    }
